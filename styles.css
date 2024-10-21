@@ -8,6 +8,10 @@ h1{
     
     
 }
+#id{
+    border: solid black 2px;
+}
+
 .spn1{
     background-color: yellow;
 }
@@ -32,3 +36,17 @@ h1{
  {
     background-color: rgb(236, 231, 61);
  }
+ hr{
+    border: 1.7px solid black;
+ }
+ .foto1{
+    border: 3.7px solid black;
+ }
+ .foto{
+    border: 1.7px solid black;
+    background-color: aqua;
+}
+.foto2{
+    border: 3.7px solid black;
+ }
+
