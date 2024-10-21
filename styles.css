@@ -1,3 +1,30 @@
 h1{
     color:  red;
+
+    
+    
 }
+.spn1{
+    background-color: yellow;
+}
+
+
+ .spn2{
+    display: inline-block;
+    background-color: yellow;
+ }
+ .spn3{
+    background-color: yellow;
+ }
+ .contenedor_1{
+    display: inline-block;
+    background-color: aqua;
+ }
+ .contenedor_2{
+    background-color: rgb(243, 203, 129);
+ }
+ 
+ .contenedor_3
+ {
+    background-color: rgb(236, 231, 61);
+ }
