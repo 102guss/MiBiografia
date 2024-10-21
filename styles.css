@@ -1,52 +1,54 @@
-body{
+body {
     background-color: antiquewhite;
 }
 
-h1{
-    color:  red;
-
-    
-    
+h1 {
+    color: red;
 }
-#id{
+
+#id {
     border: solid black 2px;
 }
 
-.spn1{
+.spn1 {
     background-color: yellow;
 }
 
-
- .spn2{
+.spn2 {
     display: inline-block;
     background-color: yellow;
- }
- .spn3{
+}
+
+.spn3 {
     background-color: yellow;
- }
- .contenedor_1{
+}
+
+.contenedor_1 {
     display: inline-block;
     background-color: aqua;
- }
- .contenedor_2{
+}
+
+.contenedor_2 {
     background-color: rgb(243, 203, 129);
- }
- 
- .contenedor_3
- {
+}
+
+.contenedor_3 {
     background-color: rgb(236, 231, 61);
- }
- hr{
+}
+
+hr {
     border: 1.7px solid black;
- }
- .foto1{
+}
+
+.fotos {
     border: 3.7px solid black;
- }
- .foto{
+}
+
+.foto {
     border: 1.7px solid black;
     background-color: aqua;
 }
-.foto2{
-    border: 3.7px solid black;
- }
 
+.foto2 {
+    border: 3.7px solid black;
+}
