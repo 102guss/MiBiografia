@@ -56,3 +56,15 @@ hr {
     width: 100px;
     height: 100px;
 }
+.imagen2{
+    width: 100px;
+    height: 100px;
+    border: solid 3px;
+    margin: 50px;
+    padding: 5px;
+}
+
+.contenedor{
+    display: inline-block;
+    margin: 17px;
+}
