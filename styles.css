@@ -1,5 +1,6 @@
 body {
     background-color: rgb(211, 232, 250);
+   
 }
 
 h1 {
@@ -62,3 +63,23 @@ hr {
     display: inline-block;
     margin: 50px;
 }
+
+.cam{
+    display: inline-block;
+   
+    background-color: aqua;
+    width: 900px;
+    font-size: 20px;
+
+}
+
+.imagen.cam1{
+    
+    border: solid 2px;
+  
+}
+.cam2{
+    display: inline-block;
+    margin-left: 20px;
+}
+
