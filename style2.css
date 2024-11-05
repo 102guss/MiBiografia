@@ -1,3 +1,38 @@
 h1{
     color: red;
+
+}
+    .contenedor_0{
+        display: flex;
+        
+        justify-content: center;
+        
+        
+        background-color: rgb(113, 113, 117);
+        
+        
+        height:500px ;
+        border-radius: 20px;
+    
+    }
+
+.contenedor_1{
+    
+    background-color: rgb(231, 218, 162);
+    font-size: 24px;
+    width: 800px;
+    border-radius: 20px
+    ;
+}
+ .fotos{
+   
+    width: 240px;
+    height: 270px;
+    border-radius: 15px;
+    
+
+} 
+.contenedor_2{
+    border-radius: 20px;
+    align-self: center;
 }
