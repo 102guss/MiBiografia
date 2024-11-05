@@ -36,3 +36,56 @@ h1{
     border-radius: 20px;
     align-self: center;
 }
+
+/* aqui empieza a segunda parte */
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.servicios {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.servicios h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de Flexbox */
+.servicios-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Cada servicio */
+.servicio {
+    background-color: #d2d4df;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 300px;
+    
+   
+    text-align: left;
+}
+
+.servicio h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.servicio p {
+    font-size: 0.95em;
+    color: #666;
+    
+}
+
