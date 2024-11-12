@@ -46,36 +46,63 @@ body {
     box-sizing: border-box;
 }
 
-.servicios {
+.servicios{
+    border: solid 5px blue;
+    text-align: center;
+   
+    
+}
+
+.servicios-contenedor{
+    border: solid red;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.servicio{
+    border: solid;
+    background-color: rgb(208, 188, 211);
+    text-align: center;
+    
+}
+
+/* .servicios {
     padding: 20px;
     background-color: #f9f9f9;
     text-align: center;
 }
+ */
 
-.servicios h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
 
 /* Contenedor de Flexbox */
-.servicios-contenedor {
+/* .servicios-contenedor {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
     justify-content: center;
+    border: solid;
+    gap: 40px;
+    height: 250px;
 }
+ */
 
+/* .servicio{
+
+    background-color: #b7c0ee;
+    border-radius: 8px;
+    border: solid;
+
+} */
 /* Cada servicio */
-.servicio {
+/* .servicio {
     background-color: #d2d4df;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 20px;
+     padding: 10px; 
     flex: 1 1 300px;
     
    
     text-align: left;
-}
+} */
 
 .servicio h3 {
     font-size: 1.2em;
