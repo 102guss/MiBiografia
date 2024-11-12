@@ -7,7 +7,7 @@ p{
 }
 
 h1, h2 {
-    color: red;
+    color: rgb(0, 34, 255);
     font-family: cursive;
     font-size: 40px;
 }
@@ -43,7 +43,7 @@ h2{
 }
 
 .contenedor_3 {
-    background-color: rgb(236, 231, 61);
+    background-c    olor: rgb(236, 231, 61);
 }
 
 hr {
