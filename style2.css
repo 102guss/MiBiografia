@@ -17,12 +17,12 @@ h1{
     }
 
 .contenedor_1{
-    
+    margin-top: 90px;
     background-color: rgb(231, 218, 162);
     font-size: 24px;
     width: 800px;
-    border-radius: 20px
-    ;
+    border-radius: 20px;
+    overflow: hidden
 }
  .fotos{
    
@@ -47,17 +47,18 @@ body {
 }
 
 .servicios{
-    border: solid 5px blue;
+    /* border: solid 5px blue; */
     text-align: center;
    
     
 }
 
 .servicios-contenedor{
-    border: solid red;
+   /*  border: solid red; */
     display: flex;
     justify-content: center;
     gap: 20px;
+    
 
 }
 .servicio{
@@ -67,42 +68,6 @@ body {
     
 }
 
-/* .servicios {
-    padding: 20px;
-    background-color: #f9f9f9;
-    text-align: center;
-}
- */
-
-
-/* Contenedor de Flexbox */
-/* .servicios-contenedor {
-    display: flex;
-    justify-content: center;
-    border: solid;
-    gap: 40px;
-    height: 250px;
-}
- */
-
-/* .servicio{
-
-    background-color: #b7c0ee;
-    border-radius: 8px;
-    border: solid;
-
-} */
-/* Cada servicio */
-/* .servicio {
-    background-color: #d2d4df;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-     padding: 10px; 
-    flex: 1 1 300px;
-    
-   
-    text-align: left;
-} */
 
 .servicio h3 {
     font-size: 1.2em;
@@ -116,3 +81,68 @@ body {
     
 }
 
+.img1{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.seccion3{
+    /* border: solid green 4px; */
+    height: 1100px;
+    text-align: center;
+    
+}
+.contenedor_3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+   
+    /* border: solid brown 5px; */
+    height: 620px;
+}
+
+.d_cam{
+    
+    /* border: solid blue; */
+    width:280px;
+    height:280px;
+   
+}
+
+.t_cam{
+    /* border: solid red; */
+     width:280px;
+    height:280px;
+
+}
+.d1_cam{
+    display: inline-block;
+    margin-left: 40px;
+    width: 190px;
+    height: 190px;
+}
+
+.navbar{
+    background-color: rgb(74, 53, 78);
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    justify-content: space-around;
+    padding: 12px;
+ 
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: solid black 4px;
+    border-radius: 10px;
+}
+.navbar a:hover{
+    background-color: rgb(189, 62, 126);
+}
