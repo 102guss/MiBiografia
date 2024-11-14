@@ -47,19 +47,17 @@ body {
 }
 
 .servicios{
-    /* border: solid 5px blue; */
+     border: solid 5px blue; 
     text-align: center;
-   
     
 }
 
 .servicios-contenedor{
-   /*  border: solid red; */
+   border: solid red; 
     display: flex;
     justify-content: center;
     gap: 20px;
     
-
 }
 .servicio{
     border: solid;
@@ -146,3 +144,37 @@ body {
 .navbar a:hover{
     background-color: rgb(189, 62, 126);
 }
+.burguer_icon{
+    display: none;
+    width: 62px;
+    height: 62px;
+     background-image: url(https://img.icons8.com/?size=100&id=qRv6l7tKC8jD&format=png&color=000000);
+    background-size: cover;
+  
+  }
+
+@media(width < 600px){
+    .servicios-contenedor{
+        
+         display: flex;
+         gap: 20px;
+         width: 100%;
+         justify-content: center;
+         align-items: center;
+         flex-wrap:wrap;
+         width: 60%;
+            margin-left: 25%;
+         
+         
+     }
+    
+     .burguer_icon{
+        display: inline-block;
+        
+      }
+    
+      .navbar a{
+        display: none;
+      }
+    
+} /* fin de media queri para telefonos */
