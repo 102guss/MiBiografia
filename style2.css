@@ -1,38 +1,44 @@
-h1{
+h1 {
     color: red;
 
 }
-    .contenedor_0{
-        display: flex;
-        
-        justify-content: center;
-        
-        
-        background-color: rgb(113, 113, 117);
-        
-        
-        height:500px ;
-        border-radius: 20px;
-    
-    }
 
-.contenedor_1{
+.contenedor_0 {
+
+    display: flex;
+
+    justify-content: center;
+
+    background-color: rgb(113, 113, 117);
+
+
+    height: 500px;
+    border-radius: 20px;
+   /*  border: solid blue; */
+}
+
+.contenedor_1 {
+    overflow: auto;
+    /* border: solid blue; */
     margin-top: 90px;
     background-color: rgb(231, 218, 162);
     font-size: 24px;
     width: 800px;
     border-radius: 20px;
-    overflow: hidden
+    /*  overflow: hidden */
+
 }
- .fotos{
-   
+
+.fotos {
+
     width: 240px;
     height: 270px;
     border-radius: 15px;
-    
 
-} 
-.contenedor_2{
+
+}
+
+.contenedor_2 {
     border-radius: 20px;
     align-self: center;
 }
@@ -46,24 +52,25 @@ body {
     box-sizing: border-box;
 }
 
-.servicios{
-     border: solid 5px blue; 
+.servicios {
+    /*  border: solid 5px blue;  */
     text-align: center;
-    
+
 }
 
-.servicios-contenedor{
-   border: solid red; 
+.servicios-contenedor {
+ /*    border: solid red; */
     display: flex;
     justify-content: center;
     gap: 20px;
-    
+
 }
-.servicio{
+
+.servicio {
     border: solid;
     background-color: rgb(208, 188, 211);
     text-align: center;
-    
+
 }
 
 
@@ -76,54 +83,56 @@ body {
 .servicio p {
     font-size: 0.95em;
     color: #666;
-    
+
 }
 
-.img1{
+.img1 {
     border-radius: 20px;
     width: 100px;
     height: 100px;
 }
 
-.seccion3{
+.seccion3 {
     /* border: solid green 4px; */
     height: 1100px;
     text-align: center;
-    
+
 }
-.contenedor_3{
+
+.contenedor_3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 45px;
-   
+
     /* border: solid brown 5px; */
     height: 620px;
 }
 
-.d_cam{
-    
+.d_cam {
+
     /* border: solid blue; */
-    width:280px;
-    height:280px;
-   
+    width: 280px;
+    height: 280px;
+
 }
 
-.t_cam{
+.t_cam {
     /* border: solid red; */
-     width:280px;
-    height:280px;
+    width: 280px;
+    height: 280px;
 
 }
-.d1_cam{
+
+.d1_cam {
     display: inline-block;
     margin-left: 40px;
     width: 190px;
     height: 190px;
 }
 
-.navbar{
+.navbar {
     background-color: rgb(74, 53, 78);
     display: flex;
     position: fixed;
@@ -132,49 +141,76 @@ body {
     z-index: 5;
     justify-content: space-around;
     padding: 12px;
- 
+
 }
-.navbar a{
+
+.navbar a {
     color: white;
     text-decoration: none;
     font-size: 25px;
     border: solid black 4px;
     border-radius: 10px;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     background-color: rgb(189, 62, 126);
 }
-.burguer_icon{
+
+.burguer_icon {
     display: none;
     width: 62px;
     height: 62px;
-     background-image: url(https://img.icons8.com/?size=100&id=qRv6l7tKC8jD&format=png&color=000000);
+    background-image: url(https://img.icons8.com/?size=100&id=qRv6l7tKC8jD&format=png&color=000000);
     background-size: cover;
-  
-  }
 
-@media(width < 600px){
-    .servicios-contenedor{
-        
-         display: flex;
-         gap: 20px;
-         width: 100%;
-         justify-content: center;
-         align-items: center;
-         flex-wrap:wrap;
-         width: 60%;
-            margin-left: 25%;
-         
-         
-     }
-    
-     .burguer_icon{
+}
+
+@media(width < 600px) {
+    .servicios-contenedor {
+
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 60%;
+        margin-left: 25%;
+
+
+    }
+
+    .burguer_icon {
         display: inline-block;
-        
-      }
-    
-      .navbar a{
+
+    }
+
+    .navbar a {
         display: none;
-      }
+    }
+
+    .contenedor_0 {
+
+        flex-wrap: wrap-reverse;
+      padding-top: 50vh;
+        background-color: rgb(113, 113, 117);
     
-} /* fin de media queri para telefonos */
+    
+        height: 1100px;
+        border-radius: 20px;
+        /* border: solid blue; */
+    }
+    .contenedor_2{
+      /*   border: solid blue 5px; */
+        width: 300px;
+        height: 340px;
+    }
+    .fotos{
+        width: 300px;
+        height: 340px;
+    }
+  
+
+}
+
+/* fin de media queri para telefonos */
